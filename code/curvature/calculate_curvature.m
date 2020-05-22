@@ -1,5 +1,5 @@
 function kappa_matrix1 = calculate_curvature( A )
-
+%% Authors: Anish Simhal and Saad Nadeem
 G = graph(A);
 A_sp = graphallshortestpaths(sparse(A>0),'directed',false);
 
